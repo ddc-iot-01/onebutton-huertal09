@@ -59,8 +59,7 @@ else
 
 // ----- button 1 callback functions
 
-// This function will be called when the button1 was pressed 1 time.
-void click1() {
+void click1() { // this fucntion will be called when the button1 was pressed 1 time
   Serial.println("Button 1 click.");
   buttonState = !buttonState;
   Serial.print("buttonState =");
